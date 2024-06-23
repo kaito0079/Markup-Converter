@@ -1,0 +1,95 @@
+{
+  "type": "pukiWiki",
+  "notations": [
+    {
+      "name": "見出し",
+      "regexp": "^* ",
+      "notation": "* "
+    },
+    {
+      "name": "見出し(h2)",
+      "regexp": "^*{2} ",
+      "notation": "** "
+    },
+    {
+      "name": "見出し(h3)",
+      "regexp": "^*{3} ",
+      "notation": "*** "
+    },
+    {
+      "name": "太字",
+      "regexp": null,
+      "notation": "''$1''"
+    },
+    {
+      "name": "斜体",
+      "regexp": null,
+      "notation": "'''$1'''"
+    },
+    {
+      "name": "訂正線",
+      "regexp": null,
+      "notation": "%%$1%%"
+    },
+    {
+      "name": "リンク",
+      "regexp": null,
+      "notation": "[[$1:$2]]"
+    },
+    {
+      "name": "引用",
+      "regexp": null,
+      "notation": "> "
+    },
+    {
+      "name": "コード",
+      "regexp": null,
+      "notation": null
+    },
+    {
+      "name": "チェックリスト",
+      "regexp": null,
+      "notation": null
+    },
+    {
+      "name": "箇条書きリスト",
+      "regexp": null,
+      "notation": "- "
+    },
+    {
+      "name": "箇条書きリスト2",
+      "regexp": null,
+      "notation": "-- "
+    },
+    {
+      "name": "箇条書きリスト3",
+      "regexp": null,
+      "notation": "--- "
+    },
+    {
+      "name": "番号付きリスト",
+      "regexp": null,
+      "notation": "+ "
+    },
+    {
+      "name": "ファイル",
+      "regexp": null,
+      "notation": "#ref()"
+    },
+    {
+      "name": "水平線",
+      "regexp": null,
+      "notation": "----"
+    },
+    {
+      "name": "Table",
+      "regexp": null,
+      "notation": null
+    },
+    {
+      "name": "注釈",
+      "regexp": null,
+      "notation": null
+    }
+  ]
+}

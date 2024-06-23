@@ -1,0 +1,24 @@
+body {
+    width: auto;
+    height: 100svb;
+
+}
+.title {
+    text-align: center;
+}
+#app {
+    height: 50%;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 50% 50%;
+}
+
+#app>div {
+    margin: 5px;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 90%;
+}

@@ -1,0 +1,115 @@
+{
+  "type": "Markdown",
+  "notations": [
+    {
+      "name": "見出し(h1)",
+      "regexp": "^# ",
+      "notation": "# "
+    },
+    {
+      "name": "見出し(h2)",
+      "regexp": "^#{2} ",
+      "notation": "## "
+    },
+    {
+      "name": "見出し(h3)",
+      "regexp": "^#{3} ",
+      "notation": "### "
+    },
+    {
+      "name": "見出し(h4)",
+      "regexp": "^#{4} ",
+      "notation": "#### "
+    },
+    {
+      "name": "見出し(h5)",
+      "regexp": "^#{5} ",
+      "notation": null
+    },
+    {
+      "name": "見出し(h6)",
+      "regexp": "^#{6} ",
+      "notation": null
+    },
+    {
+      "name": "太字",
+      "regexp": "[^\\*]\\*{1}([^\\*]+?)\\*{1}[^\\*]",
+      "notation": "**$1**"
+    },
+    {
+      "name": "斜体",
+      "regexp": "\\*{2}(.+?)\\*{2}",
+      "notation": null
+    },
+    {
+      "name": "訂正線",
+      "regexp": "~~(.+?)~~",
+      "notation": null
+    },
+    {
+      "name": "リンク",
+      "regexp": "\\[(.+?)\\]\\((.+?)\\)",
+      "notation": null
+    },
+    {
+      "name": "引用",
+      "regexp": "^> ",
+      "notation": null
+    },
+    {
+      "name": "二重引用",
+      "regexp": "^>> ",
+      "notation": null
+    },
+    {
+      "name": "コード",
+      "regexp": null,
+      "notation": null
+    },
+    {
+      "name": "チェックリスト",
+      "regexp": "\\s[.] ",
+      "notation": null
+    },
+    {
+      "name": "箇条書きリスト",
+      "regexp": "^[-\\+\\*] ",
+      "notation": null
+    },
+    {
+      "name": "箇条書きリスト2",
+      "regexp": "^( {4}|\\t){1}[-\\+\\*] ",
+      "notation": null
+    },
+    {
+      "name": "箇条書きリスト3",
+      "regexp": "^( {4}|\\t){2}[-\\+\\*] ",
+      "notation": null
+    },
+    {
+      "name": "番号付きリスト",
+      "regexp": "^\\s*\\d+\\. ",
+      "notation": null
+    },
+    {
+      "name": "ファイル",
+      "regexp": null,
+      "notation": null
+    },
+    {
+      "name": "水平線",
+      "regexp": "^[-\\*_]{3,}$",
+      "notation": null
+    },
+    {
+      "name": "Table",
+      "regexp": null,
+      "notation": null
+    },
+    {
+      "name": "注釈",
+      "regexp": null,
+      "notation": null
+    }
+  ]
+}
