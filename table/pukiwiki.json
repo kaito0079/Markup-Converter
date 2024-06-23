@@ -2,7 +2,7 @@
   "type": "pukiWiki",
   "notations": [
     {
-      "name": "見出し",
+      "name": "見出し(h1)",
       "regexp": "^* ",
       "notation": "* "
     },
