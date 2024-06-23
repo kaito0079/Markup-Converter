@@ -1,5 +1,5 @@
 // 対応表のURLリスト
-const table_list = ["../table/markdown.json", "../table/pukiwiki.json"];
+const table_list = ["./table/markdown.json", "./table/pukiwiki.json"];
 let translationTables = new Object();
 translationTables["type"] = [];
 
@@ -53,8 +53,7 @@ const translate = (text, inputType = "Markdown", outputType = "pukiWiki") => {
     console.log(outputNotations[index]);
     result = result.replace(
       re,
-      //   `<changed>${outputNotations[index].notation}</changed>`
-      outputNotations[index].notation
+      `<changed>${outputNotations[index].notation}</changed>`
     );
     // デバッグ用
     // console.log("RegExp: " + re);
