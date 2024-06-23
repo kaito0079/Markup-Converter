@@ -6,7 +6,7 @@ Markdownで議事録やメモを取ったが、pukiWikiにアップするのに�
 ## 仕様
 
 ## 使い方
-1. []()へ飛ぶ。
+1. [GitHub Pages](https://kaito0079.github.io/Markup-Converter/)へ飛ぶ。
 2. 左の入力欄へ変換したいテキストを入力
 3. 右にフォーカスを当てると変換されたものが出力されます。
 
